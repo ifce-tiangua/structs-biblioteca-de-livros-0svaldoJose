@@ -39,7 +39,7 @@ void mostrar(pLivro livros, int qtde){
 	printf("ISBN: %s\n", livros[i].isbn);
 	printf("Preço: R$ %.2lf\n", livros[i].pre);
     printf("Score: %d\n", livros[i].score);
-	printf("edi: %s\n", livros[i].edi);
+	printf("editora: %s\n", livros[i].edi);
 	
 	if(i < qtde - 1)
 	printf("\n");
