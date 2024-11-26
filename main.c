@@ -24,7 +24,7 @@ void preencher(pLivro livros, int qtde){
 	scanf("%s", livros[i].isbn);
 	scanf("%lf", &livros[i].pre);
 	scanf("%d", &livros[i].score);
-	scanf(" %[^\n]", livros[i].edi);
+	scanf(" %[^\n]", livros[i].editora);
 	
    }	
  } 
@@ -39,7 +39,7 @@ void mostrar(pLivro livros, int qtde){
 	printf("ISBN: %s\n", livros[i].isbn);
 	printf("Preço: R$ %.2lf\n", livros[i].pre);
     printf("Score: %d\n", livros[i].score);
-	printf("editora: %s\n", livros[i].edi);
+	printf("edi: %s\n", livros[i].edi);
 	
 	if(i < qtde - 1)
 	printf("\n");
